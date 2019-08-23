@@ -6,7 +6,6 @@ import { Themed } from "./Theme";
 import { Square } from "./components/QueryBlob";
 import { List } from "./components/List";
 import { OnlyFancy } from "./components/OnlyFancy";
-import Marquee from "react-marquee";
 
 const App: React.FC = () => {
     return (

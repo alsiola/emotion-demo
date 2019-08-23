@@ -36,6 +36,7 @@ export const Themed: React.FC = ({ children }) => {
 
     return (
         <ThemeProvider theme={themes[theme]}>
+            Choose your theme:{" "}
             <select onChange={e => setTheme(e.currentTarget.value as Themes)}>
                 <option value={Themes.default}>Default</option>
                 <option value={Themes.fancy}>Fancy</option>
