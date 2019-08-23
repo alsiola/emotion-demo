@@ -1,7 +1,8 @@
 {
   "name": "emotion-demo",
   "version": "0.1.0",
-  "private": true,
+  "private": false,
+  "homepage" : "http://alsiola.github.io/emotion-demo/",
   "dependencies": {
     "@emotion/core": "^10.0.16",
     "@emotion/styled": "^10.0.15",
