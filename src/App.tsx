@@ -78,6 +78,13 @@ const App: React.FC = () => {
                 <List>
                     <List.Item>Auto-prefixing for browsers</List.Item>
                 </List>
+                <Heading>Library Maintenance</Heading>
+                <List>
+                    <List.Item>Popular - 1m/week downloads</List.Item>
+                    <List.Item>
+                        Maintained - very responsive to issues/PR on github
+                    </List.Item>
+                </List>
                 <Square />
             </Page>
         </Themed>
